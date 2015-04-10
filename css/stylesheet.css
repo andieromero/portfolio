@@ -1,0 +1,114 @@
+#name {
+	font-size: 4.5em;
+	font-family:'Poiret One', cursive; 
+	color: #E900EF;
+}
+
+
+#eye {
+	color: #FFF7E3;
+}
+
+#panda {
+
+}
+
+#owl {
+	height: 120px;
+	width: 100px;
+}
+
+#quote, footer {
+	font-size: 1em;
+	font-family: 'Poiret One', cursive;
+	color: #FFF7E3;
+}
+
+#hi {
+	font-size: 5em;
+	font-family: 'Comfortaa', cursive;
+	color: #FFF7E3;
+	text-align: center;
+}
+
+#but {
+	font-size: 4em;
+	font-family: 'Comfortaa', cursive;
+	color: #E900EF ;
+}
+
+#me {
+	text-align: right;
+}
+
+#mypic {
+	width:270px; height: 330px
+}
+
+#panda {
+	width: 450px;
+	height: 281px;
+}
+
+#pic {
+	width: 300px;
+	height: 300px;
+}
+
+#pic2 {
+	width: 370px;
+	height: 470px;
+}
+
+#pic3 {
+	width: 400px;
+	height: 430px;
+}
+
+#pic4 {
+	width: 440px;
+	height: 300px;
+}
+
+body {
+	background-color: #281731;
+	text-align: center;
+
+}
+
+#jumbo {
+	background-color: #603678;
+	color: #FFF7E3;
+}
+
+.img-circle, img {
+	width: 150px;
+	height: 170px;
+}
+
+li, a {
+	font-family: 'Poiret One', cursive;
+	color: #FFF7E3;
+	font-size: 24px;
+}
+
+
+.wrapper, img{
+	width: 100%;
+	height: 30px;
+}
+
+#contact{
+	font-family: "Felix Titling", fantasy-light;
+	font-size: 1em;
+	color: #FFF7E3;	
+}
+
+.navbar, .jumbotron{
+    margin-bottom: 0;
+}
+
+
+
+
+

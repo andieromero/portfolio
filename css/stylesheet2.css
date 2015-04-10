@@ -1,0 +1,255 @@
+/* -- custom css for Bootstrap 3.x --*/
+
+/* move special fonts to HTML head for better performance */
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family:'Poiret One', cursive;
+}
+
+/* fix bs3 horizontal scrollbar bug */
+.row { margin: 0; padding: 0 }
+
+
+/* use special fonts in certain elements */
+h1,h2,h3,h4,.lead,.btn,.navbar a {
+  text-transform:uppercase;
+  font-family:'Poiret One', cursive;
+  letter-spacing:2px;
+  text-align: center;
+}
+
+h3{
+  font-weight: bold;
+}
+.item h1 {
+  font-size:50px;
+  vertical-align: center;
+  text-transform: lowercase;
+}
+
+.featurette h1, .callout h1 {
+  font-size:100px;
+  color: white;
+  text-transform:uppercase;
+  text-align: center;
+}
+
+p, .featurette li {
+  font-size: 16px;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
+  text-align:center;
+}
+
+
+.navbar a {
+  color: #fff;
+  font-size:18px;
+  width: 228px;
+  float: center;
+  text-align: center;
+}
+
+.navbar-bold.affix {
+  background-color:#fff;
+}
+
+.navbar-bold {
+  background-color:#f68076;
+  font-family:'Poiret One', cursive;
+}
+
+    
+.header h1 {
+  font-size:100px;
+  -webkit-text-stroke: 1px rgba(f,f,f,0.1);
+  color:#E900EF;
+  margin-left:-5px;
+  margin-bottom:5px;
+  text-transform:uppercase;
+}
+
+.header .lead {
+  color:#d46054;
+  font-size:25px;
+}
+
+.header {
+  height: 80%;
+  background: #281731;
+}
+
+/* use alt in navbar and header for different color */
+
+.alt {
+  background-color: #281731;
+}
+
+.alt .lead {
+  color: #E900EF;
+}
+
+.alt .affix {
+  background-color:#281731;
+}
+
+.alt li a:hover, .alt li.active {
+  background-color:#f68076;
+}
+
+
+.blurb {
+  text-align: center;
+  background-color:#603678;
+  height: 500px;
+  color: white;
+  padding: 50px;
+
+}
+
+.blurb2 {
+  text-align: center;
+  background-color:#8E005C;
+  height: 550px;
+  color: white;
+  padding: 50px;
+}
+
+.blurb .panel {
+  background-color:transparent;
+}
+
+.featurette {
+  background: #281731;
+  padding: 50px 0;
+  color: white;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+
+.callout {
+  height: 235%;
+  width: 100%;
+  background: url('../img/t4.jpg') no-repeat center center fixed; 
+}
+
+.gallery {
+  padding: 50px 0;
+}
+
+.call-to-action {
+  background: #eeeeee;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+#footer, footer {
+  padding: 10px;
+  background-color: #281731 ;
+  font-family: 'Poiret One', cursive;
+}
+
+/* -- end custom css for Bootstrap 3.x --*/
+
+#quote, footer {
+  font-size: 1em;
+  font-family: 'Poiret One', cursive;
+  color: #FFF7E3;
+  padding: 0px;
+}
+
+
+#pandie {
+  color: #E900EF;
+  font-weight: bolder;
+}
+
+#panda {
+  height: 100px;
+  width: 100px;
+}
+
+
+
+#about {
+  background-color: #603678;
+}
+
+#projects, .featurette {
+  background-color: #320056;
+ /* background: url('http://www.opengraphicdesign.com/wp-content/uploads/2010/06/vector-background-part2-01.jpg') no-repeat center center fixed;*/
+}
+
+#inspirations { 
+/*  background-color: #320056;*/
+  background: url('../img/t4.jpg') no-repeat center center fixed ;
+}
+
+h2, hr {
+  color: #f68076;
+  border-color: #f68076;
+}
+
+#contact {
+  background-color: #8E005C;
+}
+
+.img-circle {
+  width: 350px;
+  height: 350px;
+  border: 3px solid #f68076 ;
+}
+
+.img-me {
+  width: 350px;
+  height: 475px;
+}
+.gallerypic {
+  width: 175px;
+  height: 175px;
+}
+
+.contactimg {
+  width: 80px;
+  height: 80px;
+}
+
+#contactme {
+  font-size: 12px;
+}
+
+
+
+
